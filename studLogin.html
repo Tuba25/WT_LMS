@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           BUP Library Managemenr System
+        </title>
+        <link rel="stylesheet" type="text/css" href="studLoginStyle.css">
+    </head>
+    <body background="Images/home.jpg">
+        <center>
+             <div>
+                <img src="Images/home1.jpg" class = "topImage">  
+            </div>
+            <br>
+            <div id = "bottomLayout">
+                <div  id ="bottom-left"><a href = "adminLogin.html" id = "linkAdmin"><img src = "Images/students.png" height = "200" width = "200" id = "imageL"></a><br><p id ="bottomContentLeft"> Student Login</p></div>
+                <div  id ="bottom-right">
+                    <form action="studLogin.html" method  = "POST">
+                        <table id = "formLayout" cellspacing="10">
+                            <tr id = "rowLayout"><td id="rowHeading"> Username: </td><td><input type="text" name="username" id = "input"></td></tr>
+                            <tr id = "rowLayout"><td id="rowHeading"> Password: </td><td><input type="password" name="password" id = "input"></td></tr>
+							<tr id = "rowLayout"><td id="rowHeading"> Institute: </td><td><input type="text" name="institute" id = "input"></td></tr>
+                        </table>
+                        <br><center><input type="submit" value="Login" id="buttonFont"></center><br>
+                    </form>    
+                </div>
+            </div>
+        </center>    
+    </body>
+</html>
