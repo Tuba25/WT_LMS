@@ -36,7 +36,7 @@ body {
     background-color: #ffffff;
     border-style: groove;
     border-radius: 10px;
-    border-color: #d9d4d5;
+    border-color: #ececec;
 
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 #linkStudent {
-    text-decoration: none;
+    text-decoratio:none;
     font-size: 1.4em;
     color: #002171;
     font-weight: bold;
